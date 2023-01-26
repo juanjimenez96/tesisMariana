@@ -4,7 +4,9 @@ from django.template import Template, Context
 
 def saludo(request): # primera vista
 
-    doc_externo=open("G:/trabajo tesis mariana/env/core/plantillas/login.html")
+    #doc_externo=open("G:/trabajo tesis mariana/env/core/plantillas/login.html")
+
+    doc_externo=open("C:/Users/jimen/Documents/proyecto G/tesis/core/plantillas/login.html")
 
     plt=Template(doc_externo.read())
 
