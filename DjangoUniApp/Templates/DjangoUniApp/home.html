@@ -1,7 +1,8 @@
-<html>
+<html {% load static %}>
 
 <head>
-
+  <title>Buscopolis</title>
+  <link rel="shortcut icon" href="{% static 'DjangoUniApp/img/logo.jpg'%}">
     {% load static%}
 
     <!-- Bootstrap -->
@@ -26,34 +27,27 @@
 
 
  <!-- Navbar -->
- <!-- <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark py-lg-2" id="mainNav">
     <div class="container">
-      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="home.html">Gestión de Pedidos</a>
+      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="home.html">aministrador de busqueda</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="home.html">Inicio</a>
+            <a class="nav-link text-uppercase text-expanded" href="login.html">Inicio</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="servicios.html">Servicios</a>
+            <a class="nav-link text-uppercase text-expanded" href="ayuda.html">Ayuda</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="tienda.html">Tienda</a>
+            <a class="nav-link text-uppercase text-expanded" href="info.html">Acerca de</a>
           </li>
-          <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="contacto.html">Contacto</a>
-          </li>
-          <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="blog.html">Blog</a>
-          </li>
-         
         </ul>
       </div>
     </div>
-  </nav> -->
+  </nav>  -->
 
 
    <!-- Heading -->
@@ -95,7 +89,7 @@
 
 
     <!-- Footer -->
-    <!-- <footer class="footer text-faded text-center py-5">
+    <footer class="footer text-faded text-center py-3">
       <div class="container">
         <p class="m-0">
 	        <a href="#" class="link">
@@ -124,7 +118,7 @@
 		</p>
         <p class="m-0 mbt1">&copy; Gestión de Pedidos 2020</p>
       </div>
-	</footer> -->
+	</footer>
 
     <!-- Bootstrap -->
     <!-- <script src="{% static 'DjangoUniApp/vendor/jquery/jquery.min.js'%}"></script>
@@ -133,4 +127,6 @@
 </body>
 
 
+
 </html>
+
